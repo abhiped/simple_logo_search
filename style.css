@@ -1,0 +1,58 @@
+#main-heading{
+  font-size: 60px;
+  font-family: 'Lobster', cursive;
+  margin-left: 38%;
+  margin-top: 5%;
+  color: white;
+}
+.main-search{
+  width:50% !important;
+  margin-left:23%;
+}
+#main-label{
+  margin-top: 10px;
+  margin-left:23%;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+#submit-btn{
+  margin-left:42%;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+body{
+  background-color: black !important;
+}
+#display-box{
+  background-color: black;
+  margin-top: 40px;
+  margin-left: 41%;
+  width:200px;;
+  height:200px !important;
+}
+#logo-alt{
+  font-family: 'Quicksand', sans-serif;
+  width:200px;
+  height:200px;
+  padding: 20%;
+  padding-top: 35%;
+}
+#google-search{
+  margin-top: 10px;
+  margin-left:40%;
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+#google-search:hover{
+  margin-top: 10px;
+  margin-left:39%;
+  color: white !important;
+  font-family: 'Pacifico', cursive;
+  font-size: 120%;
+  text-decoration: none;
+}
+a{
+  text-decoration: none !important;
+  color: white!important;
+}
+
