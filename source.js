@@ -15,6 +15,7 @@ function fetch_img(){
                 if(document.getElementById("display-box").children.length>0)
                 {
                   document.getElementById('display-logo').src=source;
+                  document.getElementById('download-logo').href=source;
                 }
                 else{
                 var elem = document.createElement("img");
@@ -27,6 +28,7 @@ function fetch_img(){
                 
                 document.getElementById('display-box').appendChild(elem);
                 var elem2=document.createElement("a");
+                elem2.setAttribute("id","download-logo");
                 elem2.setAttribute("href",source);
                 elem2.setAttribute("Download","test.png")
                 elem2.innerHTML="Want to do download the image?";
