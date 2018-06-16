@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+              <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+              <title>LOGO SEARCH</title>
+              
+              <!--CSS embedd---------->
+              
+              <link rel="stylesheet" type="text/css" href="style.css">
+              <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+              <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+              <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+              
+              <!--Bootstrap cdn for style-------------->
+              
+              <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+              integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+              <!--Script embedd------------------>
+              
+              <script src="source.js"></script>
+    </head>
+    <body>
+              <div class="main">
+
+              <!--Input for website url ----------->
+              
+                      <div id="main-heading"> Logo Search </div>
+
+                      <label id="main-label" for="basic-url">Enter the URL</label>
+                      <div class="input-group mb-3 main-search">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon3"><span style="color:green">https</span>://</span>
+                        </div>
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                      </div>
+
+                      <div id="submit-btn">
+                        <button onclick="fetch_img()" type="button" class="btn btn-success btn-lg">Get Your Logo!</button>
+                      </div>
+
+            <!-- Logo and search results display box ------->
+            
+                      <div id="display-box">
+                      </div>
+                      <div id='google-search'style="display:none"></div>
+              </div>
+              <!--scripts for bootstrap-->
+              <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </body>
+</html>
